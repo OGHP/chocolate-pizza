@@ -1,6 +1,4 @@
 * {
-    outline: 1px solid orange;
-    /* width: 100%; */
     box-sizing: border-box;
 }
 
@@ -160,3 +158,84 @@ h2 {
 input[type=checkbox]:checked + label {
     text-decoration: line-through;
 }
+
+.about-vanessa {
+    color: gray;
+    display: inline-block;
+    font-family: 'Crimson Text', serif;
+    width: 75%;
+}
+
+.vanessa-pic {
+    position: absolute;
+    width: 6.5vw;
+}
+
+.vanessa-name {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: .75em;
+    margin-left: 15%;
+}
+
+.vanessa-bio {
+    font-size: large;
+    line-height: 1.3em;
+    margin-left: 15%;
+    width: 85%;
+}
+
+.share-button {
+    display: inline;
+
+}
+
+.share {
+    color: white;
+    background-color: #ca8767;
+    float: right;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 31px;
+    padding: 12px;
+    text-transform: uppercase;
+    width: 16vw;
+}
+
+.bottom-section {
+    margin-top: 5em;
+}
+
+.line-footer, .words-footer {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.5em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.line-footer1 {
+    background-color: gray;
+    width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.small-logo {
+    border: 2px solid white;
+    display: inline-block;
+    width: 2em;
+    margin: 0 6px;
+}
+
+.line-footer2 {
+    background-color: gray;
+    width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+ h4 {
+    margin: 6em 0 4em 0;
+    padding: .5px;
+}
+
