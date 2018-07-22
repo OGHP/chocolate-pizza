@@ -61,9 +61,6 @@
     overflow: auto;
 }
 
-/* .empty-class {
-} */
-
 h2 {
     margin: 6em 0 4em 0;
     padding: 8px;
@@ -239,3 +236,6 @@ input[type=checkbox]:checked + label {
     padding: .5px;
 }
 
+.published {
+    margin-bottom: 5em;
+}
