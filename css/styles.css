@@ -9,6 +9,10 @@
 
 /**** typewriter'ish ****/
 /* font-family: 'IBM Plex Mono', monospace; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+
+/***** recipe font *****/
+/* font-family: 'Crimson Text', serif; */
 
 /**** kid font (for recipe list) ****/
 /* font-family: ‘Patrick Hand’, cursive; */
@@ -31,16 +35,17 @@
 
 .delicious {
     font-family: 'Yellowtail', cursive;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 600;
-    margin-left: 1em;
+    margin-left: 1.2em;
     position: absolute;
 }
 
-p {
-    color: rgb(104, 103, 103);
-    font-family: 'IBM Plex Mono', monospace;
+.best-blog {
+    color: rgb(175, 172, 172);
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: xx-small;
+    letter-spacing: .2em;
     margin-left: 5.5em;
     margin-top: 4.5em;
     position: absolute;
@@ -62,7 +67,7 @@ p {
 } */
 
 h2 {
-    margin: 6em 0 0 0;
+    margin: 6em 0 4em 0;
     padding: 8px;
 }
 
@@ -72,17 +77,81 @@ h2 {
   background-size: 9.90px 9.90px;
 }
 
-/*****NOT THE RIGHT FONT!!!*****/
 .chocolate-pizza {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: xx-large
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 1vw;
 }
 
 .posted {
-    font-family: 'IBM Plex Mono', monospace;
+    color: lightgray;
+    display: inline;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: .1em;
     text-transform: uppercase;
 }
 
-.pizza {
+.pizza-image {
+    margin-top: 2vw;
     width: 100%;
+}
+
+.print-icon {
+    float: right;
+    width: 1.25em;
+    padding-top: 4px;
+}
+
+.print-button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: lightgray;
+    cursor: pointer;
+    float: right;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: medium;
+    margin-right: 0;
+    outline: none;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.instructions {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+    line-height: 2vw;
+    margin-top: 2vw;
+    text-indent: 3%;
+}
+
+.list-background {
+    margin-top: 3.5vw;
+    width: 100%;
+}
+
+/* .ingredients-list {
+    background-image: url("images/choco-pizza.png");
+} */
+
+/*****WON'T ACCEPT FONT!!!*****/
+.col-container {
+    display: inherit;
+    font-family: ‘Patrick Hand’, cursive;
+    line-height: 3.5vw;
+    /* did NOT want to do this but rule 1: make it work */
+    margin-top: -23vw;
+    width: 100%;
+}
+
+.col {
+    display: inline-block;
+    width: 40%;
+}
+
+.column-one {
+    margin-left: 13%;
 }
