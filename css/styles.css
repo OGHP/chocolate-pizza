@@ -1,0 +1,58 @@
+* {
+    outline: 1px solid orange;
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+
+/**** cursive fancy ****/
+/* font-family: 'Yellowtail', cursive; */
+
+/**** typewriter ****/
+/* font-family: 'IBM Plex Mono', monospace; */
+
+/**** kid font (for recipe list) ****/
+/* font-family: ‘Patrick Hand’, cursive; */
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.nav-bar {
+    position: relative;
+    margin-top: 2em;
+}
+
+.logo {
+    height: 3em;
+    position: absolute;
+    margin-top: 5px;
+}
+
+h3 {
+    font-family: 'Yellowtail', cursive;
+    margin-left: 1em;
+    position: absolute;
+    font-size: 4vw;
+}
+
+p {
+    color: rgb(104, 103, 103);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: xx-small;
+    margin-left: 5.5em;
+    margin-top: 4.5em;
+    position: absolute;
+}
+
+.social-icons {
+    float: right;
+    margin-right: 2em;
+}
+
+.social {
+    max-width: 1em;
+}
+
+/* .empty-class {
+} */
