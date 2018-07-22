@@ -137,10 +137,10 @@ h2 {
     background-image: url("images/choco-pizza.png");
 } */
 
-/*****WON'T ACCEPT FONT!!!*****/
 .col-container {
+    color: gray;
     display: inherit;
-    font-family: ‘Patrick Hand’, cursive;
+    font-family: patrick hand, cursive;
     line-height: 3.5vw;
     /* did NOT want to do this but rule 1: make it work */
     margin-top: -23vw;
@@ -154,4 +154,9 @@ h2 {
 
 .column-one {
     margin-left: 13%;
+}
+
+/**** STRIKE THROUGH WHEN CHECKED ****/
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
 }
