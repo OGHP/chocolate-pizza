@@ -7,7 +7,7 @@
 /**** cursive fancy ****/
 /* font-family: 'Yellowtail', cursive; */
 
-/**** typewriter ****/
+/**** typewriter'ish ****/
 /* font-family: 'IBM Plex Mono', monospace; */
 
 /**** kid font (for recipe list) ****/
@@ -29,11 +29,12 @@
     margin-top: 5px;
 }
 
-h3 {
+.delicious {
     font-family: 'Yellowtail', cursive;
+    font-size: 4vw;
+    font-weight: 600;
     margin-left: 1em;
     position: absolute;
-    font-size: 4vw;
 }
 
 p {
@@ -47,12 +48,41 @@ p {
 
 .social-icons {
     float: right;
-    margin-right: 2em;
 }
 
 .social {
-    max-width: 1em;
+    width: 1.5em;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 /* .empty-class {
 } */
+
+h2 {
+    margin: 6em 0 0 0;
+    padding: 8px;
+}
+
+/***** stripe *****/
+.stripe {
+  background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
+  background-size: 9.90px 9.90px;
+}
+
+/*****NOT THE RIGHT FONT!!!*****/
+.chocolate-pizza {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: xx-large
+}
+
+.posted {
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+}
+
+.pizza {
+    width: 100%;
+}
